@@ -3,9 +3,246 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sulphur+Point:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
+
+<header>
+<!--2. Navigation Bar (Links to sections)-->
+<nav>
+    <a href="#Home">HOME</a>
+    <a href="#About_Me_Header">ABOUT</a>
+    <a href="#Projects">PROJECTS</a>
+    <a href="#Contact">CONTACT</a>
+</nav>
+</header>
 <body>
-    
+<main>
+
+<!--3. Hero Section (Name, short bio, call-to-action)-->
+<section id="Home">
+<img id="Richia" src="Assets/Richia_pic.jpg" alt="Picture of Richia"
+style="width:500px;height:500px;" aligm>
+<div id="bio">
+<h4>Hello there! My name is Richia and welcome to my page! I live in Dallas, Texas and I'm a graduate of the University of North Texas <span style="color: green;">(Go Mean Green!)</span> I do not have kids, but I do have an 18 y/o puppy named Blacque. Currently unemployed but working on upskilling, studying for my Sec+ certification test, and enjoing my time learning how to develope an application through NPower. I'm seeking a role that will allow me to pursue my passions while serving others. I'd love to become a mentor to other unconventional women looking to enter into the tech space and lend a helping hand like others have done for me. Keep scrolling to see a little more about me!</h4>
+</div>
+
+</div>
+</section>
+
+<!--4.About Me Section (Skills, education, interests)-->
+<!--Table for education-->
+<h1 id="About_Me_Header"> ABOUT ME</h1>
+<div id="Education">
+<h1> Education</h1>
+<table id="Table" border="2">
+<tr>
+    <th>Institution/Program</th>
+    <th>Field of Study</th>
+    <th> Additional Accomplishments</th>
+</tr>
+
+<tr> 
+    <td>University of North Texas</td>
+    <td>Bachelor of Science - Biology</td>
+    <td>Undergraduate Cert. in Forensic Science, Dean's List '22, Recognized for Oustanding Work in a 3000-Level course (Anthrhopological Field Methods)</td>
+</tr>
+
+<tr> 
+    <td>North Central Texas College</td>
+    <td>Associate of Science</td>
+</tr>
+
+<tr> 
+  <td>NCAE-C Cybersecurity Certification Training Program</td>
+  <td>Cybersecurity</td> 
+  <td> CompTia Sec+ (Expected 2026) </td>
+</tr>
+
+<tr> 
+  <td> NPower Path2Tech Application Development Program </td>
+  <td>Web Development</td>
+  <td> Google Git Cert.</td>
+</tr>
+</table>
+
+<div id="About">
+<h1>Skills : <span style="font-weight:normal;font-size: 2rem;"> Python, C++, Digital Forensics, Web Development</span></h1> 
+<h1>Interests :<span style="font-weight:normal;font-size: 2rem;"> Reading, Dancing, Movies, and Music (...especially Beyonce)</span></h1>
+    <div>
+        <!--Iframe-->
+        <iframe width="1000" height="700" src="https://www.youtube.com/embed/exMV5y8w29U?si=CDu4InjTUD8AN4a2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+</div>
+
+<!--5. Projects Section (At least 3 projects with descriptions)
+    a. Placeholder projects are fine as well-->
+<div id="Projects">
+<h1 style="font-size: 6rem;"> <u>PROJECTS:</u></h1> 
+<div id="FITLINK">
+<img class="FITLINK" src="Assets/Fit_Link_Logo.jpg" 
+alt="FitLink Logo showing silouette of woman and man running toward each other with a chain link between them." style="width:400px;height:300px;"> 
+<h3>FITLINK</h3>
+<h6>FITLINK is a social wellness app created by our dedicated team to improve how people connect, stay motivated, and maintain healthy habits. </h6>  
+</div>
+<div id="PROJECT2">
+<img class="gear_icon" src="Assets/gear_icon.png" 
+alt="Gear icon" style="width:400px;height:300px;"> 
+<h3>Project#2</h3>
+<h6> Upcoming Project (Expected Late 2026)
+</div>
+<div id="PROJECT3">
+<img class="gear_icon" src="Assets/gear_icon.png" 
+alt="Gear icon" style="width:400px;height:300px;"> 
+<h3>Project 3</h3>
+<h6><h6> Upcoming Project (Expected Early 2027)</h6>  
+</div>
+</div>
+
+</main>
 </body>
+<!--6. Footer (Social links, copyright)-->
+<footer>
+</footer>
+
+<!--8. Optional: Contact Form
+    #a. Functionality not required-->
+
+<!--<section class="Contact_Container">
+<div id="Contact">
+<h3>Contact Me</h3>
+<d id="contact_form">
+<form >
+    <h4>NAME</h4>
+    <input style="font-size:2rem" type="text" placeholder=" Introduce Yourself! "> 
+    <input style="font-size:2rem" type="text" placeholder="Max length is 800 characters" disabled>
+    <h4>EMAIL ADDRESS</h4>
+    <input style="font-size:2rem" type="text" placeholder="ex.abc123@domain.com"maxlength="320">
+    <h4>MESSAGE:</h4>
+    <input style="font-size:2rem" type="textarea" maxlength="1000">
+    <input style="font-size:2rem" type="text" placeholder="Max length is 1000 characters." disabled>
+
+</form>
+
+div>   
+<fieldset>
+    <legend> Would you like to stay updated?</legend>
+    <label style="font-size: 2.5rem;">
+        <input type="checkbox" name="subscribing" value="Yes";">Yes, I'd like to receive emails!</input>
+    </label>
+    <label style="font-size: 2.5rem;">
+        <input type="checkbox" name="subscribing" value="No"> No, thank you!</input>
+    </label>
+ </div>   
+<form>
+    <label style="font-size: 2.5rem;" for="advertisements">How did you hear about me?</label>
+    <select style="font-size: 2.5rem;"name="socials">
+        <optgroup label="Professional">
+        <option value="LinkedIn">LinkedIn</option>
+        </optgroup>
+        <optgroup label="Social">
+        <option value="Facebook">Facebook</option>
+        <option value="Instagram">Instagram</option>.
+        <option value="TikTok">TikTok</option>.
+        </optgroup>
+    </select>
+</form>
+</fieldset>
+</div>
+<div>
+    <h3 style="font-size:2rem font-weight:bold">I'd like to receive updates on:</h3>
+   <form>
+    <label style="font-size:2rem">
+        <input type="radio" name="preferences" value="New Content">New Interests
+    </label>
+     <label style="font-size:2rem">
+        <input type="radio" name="preferences" value="New Skills">New Skills
+    </label>
+     <label style="font-size:2rem">
+        <input type="radio" name="preferences" value="New Favorites">New Favorites
+     </label>
+   </form> 
+   <button style="font-size:2.5rem">SUBMIT</button>
+</div>
+</div>   
+</section>    -->
+<section class="Contact_Container">
+<div id="Contact">
+<h3>Contact Me</h3>
+<d id="contact_form">
+<form >
+    <h4>NAME</h4>
+    <input style="font-size:2rem" type="text" placeholder=" Introduce Yourself! "> 
+    <input style="font-size:2rem" type="text" placeholder="Max length is 800 characters" disabled>
+    <h4>EMAIL ADDRESS</h4>
+    <input style="font-size:2rem" type="text" placeholder="ex.abc123@domain.com"maxlength="320">
+    <h4>MESSAGE:</h4>
+    <input style="font-size:2rem" type="textarea" maxlength="1000">
+    <input style="font-size:2rem" type="text" placeholder="Max length is 1000 characters. Please keep it short and sweet! " disabled>
+</form>
+<div>   
+<fieldset>
+    <legend style="font-size: 2.5rem;"> Would you like to stay updated?</legend>
+    <label style="font-size: 2.5rem;">
+        <input type="checkbox" name="subscribing" value="Yes";">Yes, I'd like to receive emails!</input>
+    </label>
+    <label style="font-size: 2.5rem;">
+        <input type="checkbox" name="subscribing" value="No"> No, thank you!</input>
+    </label>
+</fieldset>
+ </div>   
+<form>
+    <label style="font-size: 2.5rem;" class="ads;" for="marketing">How did you hear about me?</label>
+    <select style="font-size: 2.5rem;"name="socials">
+        <optgroup label="Professional">
+        <option value="LinkedIn">LinkedIn</option>
+        </optgroup>
+        <optgroup label="Social">
+        <option value="Facebook">Facebook</option>
+        <option value="Instagram">Instagram</option>.
+        <option value="TikTok">TikTok</option>.
+        </optgroup>
+    </select>
+</form>
+
+</div>
+<div id="updates">
+    <h3 style="font-size:2rem">I'd like to receive updates on:</h3>
+   <form>
+    <label style="font-size:2rem">
+        <input type="radio" name="preferences" value="New Content">New Interests
+    </label>
+     <label style="font-size:2rem">
+        <input type="radio" name="preferences" value="New Skills">New Skills
+    </label>
+     <label style="font-size:2rem">
+        <input type="radio" name="preferences" value="New Favorites">New Favorites
+     </label>
+   </form> 
+   <button style="font-size:2.5rem">SUBMIT</button>
+</div>
+</div>   
+</section>    
+
+<aside>
+ <h6> "I'd love to become a mentor to other unconventional women looking to enter into the tech space and lend a helping hand like others have done for me."</h6>   
+</aside>
+<footer>
+<div id="footer">
+<a href="https://www.linkedin.com/in/richia-campbell-55b76a180/"><img src="Assets/linkedin_logo.webp" alt="LinkedIn Logo" style="width:2cm;height:2cm;"></a>
+<img src="Assets/facebook_logo.webp" alt="Facebook logo" id="Facebook"
+style="width: 2cm;height:2cm;">
+<img  src="Assets/instagram_logo.webp" alt="Instagram logo" id="Instagram"
+style="width:2cm;height:2cm;">
+<img src="Assets/tiktok_logo.png" alt="TikTok logo" id="TikTok" 
+style="width: 1.90cm;height:1.90cm;">
+</div>
+</footer>
 </html>
